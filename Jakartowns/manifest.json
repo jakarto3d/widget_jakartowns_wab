@@ -1,0 +1,20 @@
+{
+  "name": "Jakartowns",
+  "platform": "HTML",
+  "version": "1.0",
+  "wabVersion": "2.24",
+  "author": "Marc Bazin",
+  "description": "",
+  "copyright": "Jakarto, Inc.",
+  "license": "http://www.apache.org/licenses/LICENSE-2.0",
+  "properties": {
+    "hasVersionManager": false,
+    "inPanel": false,
+    "hasStyle": false,
+    "hasConfig": false,
+    "hasSettingPage": false,
+    "hasSettingIUFile": false,
+    "hasSettingLocale": false,
+    "hasSettingStyle": false
+  }
+}
