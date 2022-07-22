@@ -1,5 +1,5 @@
 define({
-  "_widgetLabel": "Dessin",
+  "_widgetLabel": "Jakartowns",
   "selectDrawMode": "Sélectionner le mode de dessin",
   "clear": "Effacer",
   "point": "Point",
