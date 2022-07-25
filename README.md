@@ -18,3 +18,4 @@ Une fois le constructeur d’application ouvert dans votre navigateur, dans l’
 
 Votre application intègre désormais le widget Jakartowns. Elle est disponible comme telle pour tous les utilisateurs qui y ont accès dans votre organisation ArcGIS Online.
 
+changement test
