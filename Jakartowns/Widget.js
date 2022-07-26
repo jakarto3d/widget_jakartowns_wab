@@ -44,14 +44,6 @@ define([
         this.map.addLayer(this._pointLayer);
       },
 
-      onOpen: function(){
-        console.log("Jakartowns activé")
-      },
-
-      onClose: function () {
-        console.log("Jakartowns désactivé")
-      },
-
       _bindEvents: function() {
         //bind DrawBox
         this.own(on(this.drawBox, 'DrawEnd', lang.hitch(this, this._onDrawEnd)));
