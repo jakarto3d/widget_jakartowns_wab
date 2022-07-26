@@ -17,4 +17,3 @@ Puis redémarrez votre serveur local Node.js afin que le constructeur d’applic
 Une fois le constructeur d’application ouvert dans votre navigateur, dans l’onglet Widgets de la fenêtre, vous pouvez ajouter un nouveau widget dans un espace disponible. Jakartowns se trouve dans la liste des widgets. Ajoutez-le à votre application et sauvegardez celle-ci. 
 
 Votre application intègre désormais le widget Jakartowns. Elle est disponible comme telle pour tous les utilisateurs qui y ont accès dans votre organisation ArcGIS Online.
-
