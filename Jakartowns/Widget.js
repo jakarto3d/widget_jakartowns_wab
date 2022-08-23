@@ -31,6 +31,7 @@ define([
       _gs: null,
       _pointLayer: null,
 
+      // cycle de vie du widget dojo
       postCreate: function() {
         this.inherited(arguments);
         this._initGraphicsLayers();
@@ -39,6 +40,7 @@ define([
         this._bindEvents();
       },
 
+      // création d'une couche de points
       _initGraphicsLayers: function(){
         this._pointLayer = new GraphicsLayer();
         this.map.addLayer(this._pointLayer);
@@ -49,14 +51,16 @@ define([
         this.own(on(this.drawBox, 'DrawEnd', lang.hitch(this, this._onDrawEnd)));
       },
 
+  
       _onDrawEnd: async function(graphic){
         this.drawBox.clear();
         var geometry = graphic.geometry;
         let mapPoint = await this.getDDPoint(geometry)
-        let url = `https://maps.jakarto.com/?lat=${mapPoint.y}&lng=${mapPoint.x}`
-        window.open(url)
+        let url = `https://maps.jakarto.com/?lat=${mapPoint.y}&lng=${mapPoint.x}` //création de l'url de jakartowns en fonction du point créé sur la carte
+        window.open(url)// ouvrir Jakartowns lors de la création d'un point 
       },
 
+      // fonction du widget d'origine : transformation des coordonnées des nouveaux points vers EPSG:3857
       getDDPoint: function (fromPoint) {
         var def = new Deferred();
         var webMerc = new EsriSpatialReference(3857);
@@ -101,6 +105,7 @@ define([
         return def;
       },
 
+      // cycle de vie du widget dojo
       destroy: function() {
         if(this.drawBox){
           this.drawBox.destroy();
