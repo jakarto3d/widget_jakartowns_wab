@@ -2,6 +2,7 @@
 
 ![demo_widget_jakartowns_wab_light](https://user-images.githubusercontent.com/15694700/181111158-99e3a379-fbd9-4303-9d02-14ddbd0f3b43.gif)
 
+Ce widget a été conçu à l'intention des utilisateurs des produits ESRI, et de Web Appbuilder en particulier. Il permet de faire un pont entre votre application cartographique en ligne, hébergée sur votre portail ArcGIS Online, et la visionneuse 3D Jakartowns. Grâce à ce widget, vous pouvez enrichir votre application Web Appbuilder en lui permettant d'ouvrir Jakartowns, afin d'examiner en 3D vos points d'intérêts sur la carte. 
 
 ESRI ne permet malheureusement pas de simplement ajouter le widget Jakartowns dans une application construite avec la version en ligne intégrée de Web Appbuilder. Vous devez utiliser la version Developer pour installer le widget Jakartowns dans votre application.
 
